@@ -1,8 +1,8 @@
 # Learn With PluralSight: [Java EE 7: Getting Started][course]
 
-1. **Course Overview** [[GITHUB][m01.gh]]
+1. Course Overview [[GITHUB][m01.gh]]
 2. Java EE: Getting Started [[GITHUB][m02.gh]]
-3. Setting up the Java EE Environment [[GITHUB][m03.gh]]
+3. **Setting up the Java EE Environment** [[GITHUB][m03.gh]]
 4. Bootstrapping the Java EE Application [[GITHUB][m04.gh]]
 5. Defining the Domain Model [[GITHUB][m05.gh]]
 6. Adding a Transactional Repository [[GITHUB][m06.gh]]
@@ -17,6 +17,58 @@
 15. Navigating Through Components [[GITHUB][m15.gh]]
 16. Invoking the REST Service [[GITHUB][m16.gh]]
 17. Revisiting the Application [[GITHUB][m17.gh]]
+
+# 3. Setting up the Java EE Environment
+
+## Selecting an Editor
+
+Vim, Emacs, Atom, Eclipse, NetBeans, **IntelliJ**
+
+## Selecting a Building Tool
+
+Apache Ant, Apache Ivy, Gradle, **Maven**
+
+- build automation tool
+- open source
+- describes software dependencies (pom.xml)
+
+## Selecting an Application Server
+
+GlassFish, Apache TomEE, Payara, JBoss, **WildFLy**
+
+- community and opens source edition of JBoss
+- runs on multiple platforms
+- mature, 1999
+- implements JavaEE
+- modular
+- lightweight
+
+## Selecting A Database
+
+MySQL, MariaDB, Apache Derby, SQLite, PostgreSQL, **H2**
+
+- very fast
+- small footprint
+- in-memory embedded mode
+- good for development
+- open-source
+
+## Selecting a Testing Framework
+
+unit tests: **Junit,** TestNG
+
+- unit test framework
+- created 1997
+- test-driven development (TDD)
+- mock external dependencies
+
+integration tests: **Arquillian**
+
+- integration test framework
+- execute tests inside a container
+- perfect for JavaEE
+- use container dependencies and services
+- client tests outside a container
 
 [course]: https://app.pluralsight.com/library/courses/java-ee-getting-started
 [m01.gh]: https://github.com/reinielfc/lrn-ps-jee7-getting-started/tree/main
