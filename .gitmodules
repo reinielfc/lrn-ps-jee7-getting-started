@@ -1,0 +1,3 @@
+[submodule "bookstore-back"]
+	path = bookstore-back
+	url = https://github.com/reinielfc/lrn-ps-jee7-getting-started-bookstore-back
